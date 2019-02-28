@@ -6,10 +6,17 @@ from django.http import JsonResponse
 import json
 
 
+def index(request):
+    return JsonResponse({
+        'type': 'welcome',
+        'message': 'HelloDjango'
+    })
+
+
 def keyboard(request):
     return JsonResponse({
         'type': 'buttons',
-        'buttons': ['오늘', '안부','비행기가격']
+        'buttons': ['오늘', '안부', '비행기가격']
     })
 
 

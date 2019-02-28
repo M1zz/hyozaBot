@@ -1,8 +1,9 @@
 from django.conf.urls import url
 
-from hyoza import views
+from . import views
 
 urlpatterns = [
+    url(r'^', views.index),
     url(r'^keyboard/', views.keyboard),
     url(r'^message$', views.answer),
 ]

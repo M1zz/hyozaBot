@@ -12,7 +12,7 @@ def index(request):
         'message': 'HelloDjango'
     })
 
-
+@csrf_exempt
 def sayhello(request):
     return JsonResponse({
         'version': "2.0",
@@ -27,7 +27,7 @@ def sayhello(request):
         }
     })
 
-
+@csrf_exempt
 def showhello(request):
     return JsonResponse({
     'version': "2.0",

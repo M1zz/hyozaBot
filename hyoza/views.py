@@ -13,6 +13,36 @@ def index(request):
     })
 
 
+def sayhello(request):
+    return JsonResponse({
+        'version': "2.0",
+        'template': {
+            'outputs': [
+                {
+                    'simpleText': {
+                        'text': "hello I'm Ryan"
+                    }
+                }
+            ]
+        }
+    })
+
+
+def showhello(request):
+    return JsonResponse({
+    'version': "2.0",
+    'template': {
+      'outputs': [
+        {
+          'simpleImage': {
+            'imageUrl': "https://t1.daumcdn.net/friends/prod/category/M001_friends_ryan2.jpg",
+            'altText': "hello I'm Ryan"
+          }
+        }
+      ]
+    }
+  })
+
 def keyboard(request):
     return JsonResponse({
         'type': 'buttons',
@@ -39,7 +69,6 @@ def answer(request):
             }
 
         })
-
     elif datacontent == '내일':
         tomorrow = "내일 급식"
 

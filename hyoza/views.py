@@ -51,9 +51,9 @@ def showprofile(request):
     return JsonResponse({
         "version": "2.0",
         "data": {
-            "msg": "HI",
-            "name": "Ryan",
-            "position": "Senior Managing Director"
+            "msg": "Hello Chatbot",
+            "name": "HyunhoLee",
+            "position": "Junior Programmer"
         }
     })
 

@@ -76,16 +76,16 @@ def showticketprice(request):
         "version": "2.0",
         "data": {
             "depart_ticket_1": {
-                "항공사": depart_company,
-                "가격": depart_price,
-                "출발시간": depart_takeoff,
-                "도착시간": depart_landing
+                "depart_company": depart_company,
+                "depart_price": depart_price,
+                "depart_takeoff": depart_takeoff,
+                "depart_landing": depart_landing
             },
             "return_ticket_1": {
-                "항공사": return_company,
-                "가격": return_price,
-                "출발시간": return_takeoff,
-                "도착시간": return_landing
+                "return_company": return_company,
+                "return_price": return_price,
+                "return_takeoff": return_takeoff,
+                "return_landing": return_landing
             }
 
         }

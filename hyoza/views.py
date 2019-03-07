@@ -51,17 +51,11 @@ def showprofile(request):
     return JsonResponse({
         "version": "2.0",
         "data": {
-            "msg": "Hello Chatbot",
-            "name": "HyunhoLee",
-            "position": "Junior Programmer"
+            "first": {
+                "msg": "Hello Chatbot",
+                "name": "HyunhoLee",
+                "position": "Junior Programmer"}
         }
-    })
-
-
-def keyboard(request):
-    return JsonResponse({
-        'type': 'buttons',
-        'buttons': ['오늘', '안부', '비행기가격']
     })
 
 

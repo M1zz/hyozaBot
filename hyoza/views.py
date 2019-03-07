@@ -12,6 +12,7 @@ def index(request):
         'message': 'HelloDjango'
     })
 
+
 @csrf_exempt
 def sayhello(request):
     return JsonResponse({
@@ -27,21 +28,35 @@ def sayhello(request):
         }
     })
 
+
 @csrf_exempt
 def showhello(request):
     return JsonResponse({
-    'version': "2.0",
-    'template': {
-      'outputs': [
-        {
-          'simpleImage': {
-            'imageUrl': "https://t1.daumcdn.net/friends/prod/category/M001_friends_ryan2.jpg",
-            'altText': "hello I'm Ryan"
-          }
+        'version': "2.0",
+        'template': {
+            'outputs': [
+                {
+                    'simpleImage': {
+                        'imageUrl': "https://t1.daumcdn.net/friends/prod/category/M001_friends_ryan2.jpg",
+                        'altText': "hello I'm Ryan"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  })
+    })
+
+
+@csrf_exempt
+def showprofile(request):
+    return JsonResponse({
+        "version": "2.0",
+        "data": {
+            "msg": "HI",
+            "name": "Ryan",
+            "position": "Senior Managing Director"
+        }
+    })
+
 
 def keyboard(request):
     return JsonResponse({

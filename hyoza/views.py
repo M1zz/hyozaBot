@@ -60,34 +60,33 @@ def showprofile(request):
 
 
 @csrf_exempt
-def answer(request):
-    json_str = ((request.body).decode('utf-8'))
-    received_json_data = json.loads(json_str)
-    datacontent = received_json_data['content']
+def showticketprice(request):
 
-    if datacontent == '오늘':
-        today = "오늘 급식"
+    depart_company = "피치항공"
+    depart_price = "258,984"
+    depart_takeoff = "15: 35"
+    depart_landing = "17: 25"
 
-        return JsonResponse({
-            'message': {
-                'text': today
+    return_company = "피치항공"
+    return_price = "258,984"
+    return_takeoff = "07: 40"
+    return_landing = "9: 30"
+
+    return JsonResponse({
+        "version": "2.0",
+        "data": {
+            "depart_ticket_1": {
+                "항공사": depart_company,
+                "가격": depart_price,
+                "출발시간": depart_takeoff,
+                "도착시간": depart_landing
             },
-            'keyboard': {
-                'type': 'buttons',
-                'buttons': ['오늘', '내일']
+            "return_ticket_1": {
+                "항공사": return_company,
+                "가격": return_price,
+                "출발시간": return_takeoff,
+                "도착시간": return_landing
             }
 
-        })
-    elif datacontent == '내일':
-        tomorrow = "내일 급식"
-
-        return JsonResponse({
-            'message': {
-                'text': tomorrow
-            },
-            'keyboard': {
-                'type': 'buttons',
-                'buttons': ['오늘', '내일']
-            }
-
-        })
+        }
+    })

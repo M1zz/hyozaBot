@@ -37,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hyoza/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="135">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -51,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hyoza/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="53" column="18" lean-forward="true" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+            <state relative-caret-position="277">
+              <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -72,6 +72,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>xml</find>
+      <find>data</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -82,10 +83,10 @@
       <list>
         <option value="$PROJECT_DIR$/skyTicketInfo/urls.py" />
         <option value="$PROJECT_DIR$/skyTicketInfo/views.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/bot/urls.py" />
         <option value="$PROJECT_DIR$/bot/settings.py" />
         <option value="$PROJECT_DIR$/hyoza/urls.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/hyoza/views.py" />
       </list>
     </option>
@@ -137,6 +138,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hyoza" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -190,7 +196,7 @@
       <workItem from="1551311256830" duration="6284000" />
       <workItem from="1551701419153" duration="2160000" />
       <workItem from="1551826551185" duration="983000" />
-      <workItem from="1551916581106" duration="2238000" />
+      <workItem from="1551916581106" duration="2804000" />
     </task>
     <task id="LOCAL-00001" summary="proto type">
       <created>1551345920724</created>
@@ -234,14 +240,22 @@
       <option name="project" value="LOCAL" />
       <updated>1551917457294</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add data structure 'first'">
+      <created>1551928998292</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1551928998292</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12389000" />
+    <option name="totallyTimeSpent" value="12955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -278,7 +292,8 @@
     <MESSAGE value="CSRF fix" />
     <MESSAGE value="add show profile skill" />
     <MESSAGE value="update show profile skill" />
-    <option name="LAST_COMMIT_MESSAGE" value="update show profile skill" />
+    <MESSAGE value="add data structure 'first'" />
+    <option name="LAST_COMMIT_MESSAGE" value="add data structure 'first'" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/skyTicketInfo/admin.py" />
@@ -287,13 +302,6 @@
     <entry file="file://$PROJECT_DIR$/skyTicketInfo/tests.py" />
     <entry file="file://$PROJECT_DIR$/skyTicketInfo/urls.py" />
     <entry file="file://$PROJECT_DIR$/skyTicketInfo/views.py" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bot/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -316,15 +324,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hyoza/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        <state relative-caret-position="135">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="373" column="8" lean-forward="true" selection-start-line="373" selection-start-column="8" selection-end-line="373" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hyoza/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="53" column="18" lean-forward="true" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+        <state relative-caret-position="277">
+          <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

@@ -52,7 +52,7 @@ def showprofile(request):
         "version": "2.0",
         "data": {
             "first": {
-                "msg": "Hello Chatbot",
+                "msg": "안녕하세요 반가워요 이현호입니다",
                 "name": "HyunhoLee",
                 "position": "Junior Programmer"}
         }

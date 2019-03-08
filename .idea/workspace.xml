@@ -1,44 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9df93c24-ac3b-4ae4-bde4-7d4a6897e934" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cocktail/json_creator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cocktail/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/conf/global_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/conf/global_settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/conf/locale/ia/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/conf/locale/ia/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/conf/urls/static.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/conf/urls/static.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/admin/templatetags/admin_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/admin/templatetags/admin_static.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/admin/widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/admin/widgets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/gis/geos/mutable_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/gis/geos/mutable_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/gis/templates/gis/admin/openlayers.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/gis/templates/gis/admin/openlayers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/staticfiles/handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/staticfiles/handlers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/staticfiles/management/commands/findstatic.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/staticfiles/management/commands/findstatic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/staticfiles/management/commands/runserver.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/staticfiles/management/commands/runserver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/staticfiles/storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/staticfiles/storage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/staticfiles/templatetags/staticfiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/staticfiles/templatetags/staticfiles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/staticfiles/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/staticfiles/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/staticfiles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/contrib/staticfiles/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/core/checks/registry.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/core/checks/registry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/forms/widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/forms/widgets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/template/context_processors.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/template/context_processors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/templatetags/static.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/templatetags/static.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/test/testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/test/testcases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django/views/static.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django/views/static.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/resolve.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/resolve.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/typing.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/typing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/vcs/mercurial.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/vcs/mercurial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/_backport/sysconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/_backport/sysconfig.py" afterDir="false" />
-    </list>
+    <list default="true" id="9df93c24-ac3b-4ae4-bde4-7d4a6897e934" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,14 +43,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cocktail/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="374" column="10" selection-start-line="374" selection-start-column="10" selection-end-line="374" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -166,7 +138,6 @@
       <list>
         <option value="$PROJECT_DIR$/skyTicketInfo/urls.py" />
         <option value="$PROJECT_DIR$/skyTicketInfo/views.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/hyoza/urls.py" />
         <option value="$PROJECT_DIR$/hyoza/views.py" />
         <option value="$PROJECT_DIR$/bot/urls.py" />
@@ -174,6 +145,7 @@
         <option value="$PROJECT_DIR$/cocktail/json_creator.py" />
         <option value="$PROJECT_DIR$/cocktail/views.py" />
         <option value="$PROJECT_DIR$/cocktail/urls.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -306,7 +278,7 @@
       <workItem from="1551311256830" duration="6284000" />
       <workItem from="1551701419153" duration="2160000" />
       <workItem from="1551826551185" duration="983000" />
-      <workItem from="1551916581106" duration="9646000" />
+      <workItem from="1551916581106" duration="10226000" />
     </task>
     <task id="LOCAL-00001" summary="proto type">
       <created>1551345920724</created>
@@ -378,21 +350,29 @@
       <option name="project" value="LOCAL" />
       <updated>1551946646896</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add cocktail app">
+      <created>1552023997503</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1552023997503</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19797000" />
+    <option name="totallyTimeSpent" value="20377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32871014" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32871014" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32871014" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -426,7 +406,8 @@
     <MESSAGE value="update json" />
     <MESSAGE value="add showticketprice" />
     <MESSAGE value="update showticketprice" />
-    <option name="LAST_COMMIT_MESSAGE" value="update showticketprice" />
+    <MESSAGE value="add cocktail app" />
+    <option name="LAST_COMMIT_MESSAGE" value="add cocktail app" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/skyTicketInfo/admin.py" />
@@ -437,13 +418,6 @@
     <entry file="file://$PROJECT_DIR$/skyTicketInfo/views.py" />
     <entry file="file://$PROJECT_DIR$/bot/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="373" column="8" lean-forward="true" selection-start-line="373" selection-start-column="8" selection-end-line="373" selection-end-column="8" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hyoza/data/output.csv">
       <provider selected="true" editor-type-id="text-editor">
@@ -511,11 +485,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cocktail/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="374" column="10" selection-start-line="374" selection-start-column="10" selection-end-line="374" selection-end-column="10" />
         </state>
       </provider>
     </entry>

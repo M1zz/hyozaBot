@@ -15,6 +15,9 @@ def index(request):
 
 
 @csrf_exempt
-def recipe(request,drinknumber):
+def recipe(request, drinknumber):
     cocktail = JC.select_cocktail(drinknumber)
-    return JsonResponse({'text':cocktail})
+    print(cocktail,type(cocktail))
+    jason_data = JC.create_json(cocktail)
+
+    return jason_data

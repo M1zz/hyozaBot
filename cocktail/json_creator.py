@@ -1,12 +1,13 @@
 # def create_json():
 import csv
+from django.core.files import File
 from collections import defaultdict
 
 
 def select_cocktail(number):
     cocktail_list = []
     with open('./cocktail/data/cocktail_recipe.csv', 'r') as raw:
-        drinks = csv.reader(raw)
+        drinks = csv.reader(File(raw))
         headers = next(drinks, None)
         print(headers)
 

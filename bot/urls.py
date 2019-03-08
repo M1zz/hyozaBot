@@ -19,4 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url('admin/', admin.site.urls),
     url(r'^hyoza/', include('hyoza.urls')),
+    url(r'^cocktail/', include('cocktail.urls')),
 ]

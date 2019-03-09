@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9df93c24-ac3b-4ae4-bde4-7d4a6897e934" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cocktail/json_creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/cocktail/json_creator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cocktail/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cocktail/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cocktail/json_creator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="23" column="49" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="49" />
+            <state relative-caret-position="81">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
               <folding>
                 <element signature="e#21#31#0" expanded="true" />
               </folding>
@@ -101,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cocktail/data/cocktail_recipe.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="26" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="26" />
+            <state>
+              <caret column="114" lean-forward="true" selection-end-column="114" />
             </state>
           </provider>
         </entry>
@@ -302,7 +299,7 @@
       <workItem from="1551311256830" duration="6284000" />
       <workItem from="1551701419153" duration="2160000" />
       <workItem from="1551826551185" duration="983000" />
-      <workItem from="1551916581106" duration="13892000" />
+      <workItem from="1551916581106" duration="14775000" />
     </task>
     <task id="LOCAL-00001" summary="proto type">
       <created>1551345920724</created>
@@ -402,11 +399,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552031817176</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="complete prototype">
+      <created>1552034658192</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1552034658192</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24043000" />
+    <option name="totallyTimeSpent" value="24926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="0" />
@@ -453,7 +457,8 @@
     <MESSAGE value="update showticketprice" />
     <MESSAGE value="add cocktail app" />
     <MESSAGE value="update csv file path" />
-    <option name="LAST_COMMIT_MESSAGE" value="update csv file path" />
+    <MESSAGE value="complete prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete prototype" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/skyTicketInfo/admin.py" />
@@ -529,6 +534,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cocktail/data/cocktail_recipe.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="114" lean-forward="true" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cocktail/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -539,17 +551,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cocktail/data/cocktail_recipe.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cocktail/json_creator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="49" />
+        <state relative-caret-position="81">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
           <folding>
             <element signature="e#21#31#0" expanded="true" />
           </folding>

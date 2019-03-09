@@ -9,7 +9,7 @@ from django.http import JsonResponse
 def select_cocktail(number):
     cocktail_list = []
     #./cocktail/data/cocktail_recipe.csv
-    with open('/home/mizzking75/hyozaBot/cocktail/data', 'r') as raw:
+    with open('/home/mizzking75/hyozaBot/cocktail/data/cocktail_recipe.csv', 'r') as raw:
         drinks = csv.reader(File(raw))
         headers = next(drinks, None)
 

@@ -8,8 +8,8 @@ from django.http import JsonResponse
 
 def select_cocktail(number):
     cocktail_list = []
-    #/home/mizzking75/hyozaBot/cocktail/data
-    with open('./cocktail/data/cocktail_recipe.csv', 'r') as raw:
+    #./cocktail/data/cocktail_recipe.csv
+    with open('/home/mizzking75/hyozaBot/cocktail/data', 'r') as raw:
         drinks = csv.reader(File(raw))
         headers = next(drinks, None)
 

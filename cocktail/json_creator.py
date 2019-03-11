@@ -21,7 +21,7 @@ def select_cocktail(number):
 
 def create_json(cocktail):
 
-    data = JsonResponse({ 'version': '2.0', 'data': {'number':cocktail[0],'category':cocktail[1],'cockTailNameEn':cocktail[2],'cockTailNameKo':cocktail[3],'technique':cocktail[4],'glass':cocktail[5],'garnish':cocktail[6],'base':cocktail[7],'material1':cocktail[8],'material2':cocktail[9],'material3':cocktail[10],'material4:':cocktail[11],'videoURL:':cocktail[12]}})
+    data = JsonResponse({ 'version': '2.0', 'data': {'number':cocktail[0],'category':cocktail[1],'cockTailNameEn':cocktail[2],'cockTailNameKo':cocktail[3],'technique':cocktail[4],'glass':cocktail[5],'garnish':cocktail[6],'base':cocktail[7],'material1':cocktail[8],'material2':cocktail[9],'material3':cocktail[10],'material4:':cocktail[11],'youtubeURL:':cocktail[12]}})
     return data
 
 class Cocktail:
